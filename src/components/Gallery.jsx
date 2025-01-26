@@ -11,7 +11,7 @@ const images = [
 
 const Gallery = ({ galleryRef }) => {
   return (
-    <section id="gallery" className="bg-white py-24" ref={galleryRef}>
+    <section id="gallery" className="bg-white py-24 px-5" ref={galleryRef}>
       <div className=" mx-auto text-center">
         <h3 className="text-3xl font-semibold text-neutral-700">Gallery</h3>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">

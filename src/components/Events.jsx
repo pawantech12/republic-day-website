@@ -20,7 +20,7 @@ const events = [
 
 const Events = ({ eventsRef }) => {
   return (
-    <section id="events" className="bg-gray-100 py-24" ref={eventsRef}>
+    <section id="events" className="bg-gray-100 py-24 px-5" ref={eventsRef}>
       <div className="mx-auto text-center">
         <h3 className="text-3xl font-semibold text-neutral-700">
           Event Highlights
